@@ -10,7 +10,7 @@ import File from "../models/file.js";
     }
   try{
       const file = await File.create(fileObj);
-      res.status(200).json({path:`https://filesharing-mp5g.onrender.com/file/${file._id}`})
+      res.status(200).json({path:`https://g-uo0k.onrender.com/file/${file._id}`})
   } 
   catch(err){
     console.log("erorr",err.message)
